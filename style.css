@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'roboto';
-    src: url(./fonts/Roboto-Regular.ttf);
+    src: url(/fonts/Roboto-Regular.ttf);
 }
 
 .wrapper {
@@ -8,7 +8,7 @@
 }
 
 .first-bg {
-    background: url(./images/1.png);
+    background: url(/images/1.png);
     padding-top: 80px;
     padding-bottom: 140px;
 }
@@ -108,7 +108,7 @@ ul li:hover {
 }
 
 .third-bg {
-    background: url(./images/2.png);
+    background: url(/images/2.png);
 }
 
 .third-page {
@@ -146,7 +146,7 @@ ul li:hover {
 }
 
 .fourth-bg {
-    background: url(./images/4.png);
+    background: url(/images/4.png);
 }
 
 .fourth-page {
@@ -177,7 +177,7 @@ ul li:hover {
 .fourth-img {
     width: 1110px;
     height: 600px;
-    background: url(./images/video.png);
+    background: url(/images/video.png);
     margin-bottom: 100px;
     display: flex;
     justify-content: space-around;
@@ -190,7 +190,7 @@ ul li:hover {
 }
 
 .fifth-bg {
-    background: url(./images/3.png);
+    background: url(/images/3.png);
 }
 
 .fifth-page {
@@ -293,7 +293,7 @@ ul li:hover {
     }
 
     .third-bg {
-        background: url(./images/2.png);
+        background: url(/images/2.png);
     }
 
     .third-page {
@@ -336,7 +336,7 @@ ul li:hover {
     }
 
     .fourth-bg {
-        background: url(./images/4.png);
+        background: url(/images/4.png);
     }
 
     .fourth-page {
@@ -367,7 +367,7 @@ ul li:hover {
     .fourth-img {
         width: 90%;
         height: 300px;
-        background: url(./images/video.png) ;
+        background: url(/images/video.png) ;
         margin-bottom: 100px;
         display: flex;
         justify-content: space-around;
@@ -380,7 +380,7 @@ ul li:hover {
     }
 
     .fifth-bg {
-        background: url(./images/3.png);
+        background: url(/images/3.png);
     }
 
     .fifth-page {

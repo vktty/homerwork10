@@ -222,11 +222,11 @@ ul li:hover {
     .navigation {
         display: flex;
         justify-content: flex-start;
-        gap: 5px;
+        column-gap: 5px;
     }
 
     .navigation-button {
-        font-size: 85%;
+        font-size: 80%;
         list-style: none;
         width: 80%;
     }

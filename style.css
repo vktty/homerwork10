@@ -7,13 +7,13 @@
     font-family: 'roboto';
 }
 
-.first-bg {
+.main-bg {
     background: url(images/1.png);
     padding-top: 80px;
     padding-bottom: 140px;
 }
 
-.first-page {
+.main-page {
     width: 890px;
     margin: 0 auto;
 }
@@ -46,17 +46,17 @@ ul li:hover {
     text-decoration: underline;
 }
 
-.main {
+.main-text-description {
     max-width: 540px;
 }
 
-.main-title {
+.main-text-title {
     font-size: 48px;
     font-weight: 500;
     margin-top: 162px;
 }
 
-.main-text {
+.main-text-description {
     color: #727272;
     font-weight: 400;
     font-size: 16px;
@@ -82,7 +82,7 @@ ul li:hover {
     text-decoration: underline;
 }
 
-.second-page {
+.about-me-page {
     margin: 0 auto;
     text-align: center;
     width: 890px;
@@ -91,13 +91,13 @@ ul li:hover {
     align-items: center;
 }
 
-.second-title {
+.about-me-page-title {
     margin-top: 112px;
     font-size: 32px;
     font-weight: 500;
 }
 
-.second-text {
+.about-me-page-text {
     margin-top: 50px;
     margin-bottom: 100px;
     font-size: 16px;
@@ -107,11 +107,11 @@ ul li:hover {
     line-height: 26px;
 }
 
-.third-bg {
+.icons-bg {
     background: url(images/2.png);
 }
 
-.third-page {
+.icons-page {
     display: flex;
     justify-content: center;
     gap: 45px;
@@ -119,37 +119,37 @@ ul li:hover {
     margin: 0 auto;
 }
 
-.third-items {
+.icons-items {
     display: flex;
     margin-top: 100px;
     margin-bottom: 100px;
 }
 
-.third-text {
+.icons-text {
     margin-left: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.third-title {
+.icons-title {
     color: white;
     font-size: 21px;
     font-weight: 500;
     margin-bottom: 10px;
 }
 
-.third-under {
+.icons-under-title {
     color: white;
     font-size: 16px;
     font-weight: 400;
 }
 
-.fourth-bg {
+.my-works-bg {
     background: url(images/4.png);
 }
 
-.fourth-page {
+.my-works-page {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -159,12 +159,12 @@ ul li:hover {
     margin: 0 auto;
 }
 
-.fourth-title {
+.my-works-title {
     margin-top: 100px;
     font-size: 32px;
 }
 
-.fourth-text {
+.my-works-text {
     color: #727272;
     font-size: 16px;
     font-weight: 400;
@@ -174,7 +174,7 @@ ul li:hover {
     margin-bottom: 57px;
 }
 
-.fourth-img {
+.my-works-img {
     width: 1110px;
     height: 600px;
     background: url(images/video.png);
@@ -184,22 +184,22 @@ ul li:hover {
     align-items: center;
 }
 
-.play {
+.my-works-play {
     width: 100px;
     height: 100px;
 }
 
-.fifth-bg {
+.footer-bg {
     background: url(images/3.png);
 }
 
-.fifth-page {
+.footer-page {
     width: 890px;
     height: 151px;
     margin: 0 auto;
 }
 
-.fifth-title {
+.footer-title {
     font-size: 21px;
     font-weight: 500;
     margin-bottom: 20px;
@@ -207,14 +207,14 @@ ul li:hover {
     padding-top: 50px;
 }
 
-.fifth-text {
+.footer-text {
     margin-bottom: 50px;
     font-size: 13px;
     color: white;
 }
 
 @media (max-width: 767px) {
-    .first-page {
+    .main-page {
         width: 75%;
         margin: 0 auto;
     }
@@ -226,22 +226,22 @@ ul li:hover {
     }
 
     .navigation-button {
-        font-size: 80%;
+        font-size: 120%;
         list-style: none;
         width: 80%;
     }
 
-    .main {
+    .main-text-description {
         width: 90%;
     }
 
-    .main-title {
+    .main-text-title {
         font-size: 28px;
         font-weight: 500;
         margin-top: 40%;
     }
 
-    .main-text {
+    .main-text-description {
         color: #727272;
         font-weight: 400;
         font-size: 16px;
@@ -267,7 +267,7 @@ ul li:hover {
         text-decoration: underline;
     }
 
-    .second-page {
+    .about-me-page {
         margin: 0 auto;
         text-align: center;
         width: 90%;
@@ -276,13 +276,13 @@ ul li:hover {
         align-items: center;
     }
 
-    .second-title {
+    .about-me-page-title {
         margin-top: 40%;
         font-size: 32px;
         font-weight: 500;
     }
 
-    .second-text {
+    .about-me-page-text {
         margin-top: 10%;
         margin-bottom: 100px;
         font-size: 16px;
@@ -292,11 +292,11 @@ ul li:hover {
         line-height: 26px;
     }
 
-    .third-bg {
+    .icons-bg {
         background: url(images/2.png);
     }
 
-    .third-page {
+    .icons-page {
         display: flex;
         justify-content: center;
         gap: 45px;
@@ -304,42 +304,42 @@ ul li:hover {
         margin: 0 auto;
     }
 
-    .third-items {
+    .icons-items {
         display: flex;
         margin-top: 20%;
         margin-bottom: 20%;
     }
 
-    .third-text {
+    .icons-text {
         margin-left: 8%;
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
 
-    .third-title {
+    .icons-title {
         color: white;
         font-size: 60%;
         font-weight: 500;
         margin-bottom: 5%;
     }
 
-    .third-under {
+    .icons-under-title {
         color: white;
         font-size: 50%;
         font-weight: 400;
     }
 
-    .third-items img {
+    .icons-items img {
         width: 50%;
         height: 50%;
     }
 
-    .fourth-bg {
+    .my-works-bg {
         background: url(images/4.png);
     }
 
-    .fourth-page {
+    .my-works-page {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -349,12 +349,12 @@ ul li:hover {
         margin: 0 auto;
     }
 
-    .fourth-title {
+    .my-works-title {
         margin-top: 100px;
         font-size: 32px;
     }
 
-    .fourth-text {
+    .my-works-text {
         color: #727272;
         font-size: 16px;
         font-weight: 400;
@@ -364,7 +364,7 @@ ul li:hover {
         margin-bottom: 57px;
     }
 
-    .fourth-img {
+    .my-works-img {
         width: 90%;
         height: 300px;
         background: url(images/video.png) ;
@@ -374,22 +374,22 @@ ul li:hover {
         align-items: center;
     }
     
-    .play {
+    .my-works-play {
         width: 100px;
         height: 100px;
     }
 
-    .fifth-bg {
+    .footer-bg {
         background: url(images/3.png);
     }
 
-    .fifth-page {
+    .footer-page {
         width: 90%;
         height: 151px;
         margin: 0 auto;
     }
 
-    .fifth-title {
+    .footer-title {
         font-size: 21px;
         font-weight: 500;
         margin-bottom: 20px;
@@ -397,9 +397,17 @@ ul li:hover {
         padding-top: 50px;
     }
 
-    .fifth-text {
+    .footer-text {
         margin-bottom: 50px;
         font-size: 13px;
         color: white;
+    }
+}
+
+@media (max-width: 711px) {
+    .navigation {
+        display: flex;
+        flex-direction: column;
+        column-gap: 5px;
     }
 }
